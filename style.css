@@ -1,0 +1,454 @@
+.head1{
+    height: 28px;
+    display: flex;
+    background-color: #586ba0;
+}
+
+.navBar{
+    display: flex;
+    background-color: #DBDFEA;
+}
+
+.navBar li{
+    list-style: none;
+    margin: 15px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.navBar a{
+    text-decoration: none !important;
+    color: black;
+}
+
+.navBar img{
+    width: 180px;
+    height: 80px;
+    margin-right: 400px;
+    margin-left: 200px;
+    margin-bottom: 1px;
+    border-radius: 20px;
+}
+
+.para1{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 70px;
+    font-size: 38px;
+    text-align: center;
+    color: #26b1b8;
+}
+
+.para2{
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.new-container{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 300px 300px 350px;
+    margin-top: 60px;
+    gap: 70px;
+    justify-content: center;
+    
+}
+
+.feature-logo{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+
+.new-container h6{
+    font-size: 20px;
+    color: #26b1b8;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature-box p{
+    text-align: justify;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.feature-button{
+    margin-top: 20px;
+    margin-left: 755px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #1fccd5;
+    color: white;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trainer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.trainer-photo img{
+    height: 500px;
+    width: 350px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.trainer-about{
+    width: 700px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trainer-button{
+    margin-top: 40px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #1fccd5;
+    color: white;
+    border: none;
+}
+
+.last-container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.last-para{
+    width: 600px;
+}
+
+.last-para h3{
+    font-size: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.last-para p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.last-box{
+    padding: 20px;
+    width: 280px;
+    height: 310px;
+    border-radius: 5px;
+    background-color: #1fccd5;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last-box h4{
+    margin-bottom: 30px;
+    background-color: #1fccd5;
+    color: white;
+}
+
+
+.my-footer{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    height: 50px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.home-footer{
+    background-color: #626262;
+    color: white;
+}
+
+/* Contact Page */
+
+.address{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.address-photo img{
+    height: 500px;
+    width: 800px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.address-about{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.address-about p{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map {
+    margin: 50px 50px 0px 50px;
+    padding-bottom: 45%;
+    position: relative;
+}
+
+.map iframe {
+    height: 600px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#map-head{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Why us CSS */
+
+.whyus-container{
+    display: flex;
+    gap: 30px;
+    background-color: #252E3F;
+    padding-top: 0px;
+}
+
+
+.whyus-para h1{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.whyus-para h2{
+font-size: 35px;
+margin-bottom: 40px;
+font-weight: 600;
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.whyus-para p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.benefit-head{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.benefit-head h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #1fccd5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.benefit-container{
+    display: grid;
+    grid-template-rows: 300px 430px;
+    grid-template-columns: 390px 390px;
+    margin-top: 60px;
+    gap: 70px;
+    justify-content: center;
+}
+
+.benefit-logo{
+    width: 180px;
+    height: 150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.benefit-container h6{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+.benefit-box p{
+    text-align: center;
+    color: #586ba0;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.equip-head{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.equip{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.equip-photo img{
+    height: 270px;
+    width: 350px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.equip-about{
+    width: 800px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reason-head{
+    display: flex;
+    margin-top: 60px;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.reason-head h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252E3F;
+    margin-bottom: 20px;
+}
+
+.reason-head p{
+    text-align: center;
+}
+
+/* About us CSS*/
+
+.about-head1 h1{
+text-align: center;
+font-size: 54px;
+font-family: 'Montserrat', sans-serif;
+margin-top: 50px;
+font-weight: 700;
+}
+
+.about-head1 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    color: #90939b;
+}
+
+#about-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.about-story h2{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 42px;
+font-weight: 600;
+margin-bottom: 35px;
+}
+
+.about-exp{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
+.exp-box{
+    color: #a39595;
+    font-size: larger;
+    padding: 30px;
+}
+
+.exp-box h2{
+    font-size: 90px;
+}
+
+.exp-box p{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.train-head{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.train{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.train-photo img{
+    height: 500px;
+    width: 350px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.train-about{
+    width: 700px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.achievement-head{
+    display: flex;
+    margin-left: 600px;
+}
+
+.train-exp{
+    display: flex;
+    margin: 50px 100px 70px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
