@@ -6,4 +6,4 @@ from him, the content he wanted in his website, the photos , the webpages he wan
 and showed it to him and when he approved of it,I started designing the website and with him as the customer, I took
 more details from him during the making and made minor changes he wanted.
 
-Such a way, I was able to experience how it is the web developers in real life work somehow.
+Such a way, I was able to experience how it is some web developers in real life work .
