@@ -1,6 +1,6 @@
 # A-Gym-Website
 
-Created this website as a part of personal project of a gym but it was a practical experience for me. My uncle who 
+Created this website as a part of personal project of a gym but it was a practical experience for me. A friend who 
 is a gym trainer and owns a gym asked me to make a sample website for his gym. So, I gathered all the requirements 
 from him, the content he wanted in his website, the photos , the webpages he wanted and made a basic layout of it 
 and showed it to him and when he approved of it,I started designing the website and with him as the customer, I took
